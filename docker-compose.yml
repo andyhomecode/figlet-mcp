@@ -1,0 +1,13 @@
+services:
+  figlet-mcp:
+    build: .
+    container_name: figlet-mcp
+    restart: unless-stopped
+    expose:
+      - "8000"
+    networks:
+      - workday-mcp-net
+
+networks:
+  workday-mcp-net:
+    external: true
