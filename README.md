@@ -23,4 +23,4 @@ handle @figlet_key {
 
 ## Public MCP URL
 
-`https://server.maxwell.nyc/figlet/mcp`
+`https://whatever.com/figlet/mcp`
